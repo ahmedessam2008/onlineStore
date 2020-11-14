@@ -261,6 +261,7 @@ body {
 /* start Filter Section  */
 .mecha-tools {
     background-color: #f1f1f1;
+    min-height: 200px;
 }
 .mecha-tools .filter-control1, .accessory-tools .filter-control2 {
     margin: 30px auto;
@@ -296,31 +297,31 @@ body {
     top: 48px;
     right: 30px;
 }
-.mecha-tools .filter-1 .carousel-indicators {
+.mecha-tools .targets .carousel-indicators {
     bottom: -40px;
 }
-.mecha-tools .filter-1 .carousel-indicators li, .accessory-tools .filter-2 .carousel-indicators li {
+.mecha-tools .targets .carousel-indicators li, .accessory-tools .filter-2 .carousel-indicators li {
     border: 1px solid #000;
 }
-.mecha-tools .filter-1 .carousel-indicators .active, .accessory-tools .filter-2 .carousel-indicators .active {
+.mecha-tools .targets .carousel-indicators .active, .accessory-tools .filter-2 .carousel-indicators .active {
     background-color: rgba(221,0,23,1);
 }
-.mecha-tools .filter-1 .item .one-item, .accessory-tools .filter-2 .item .one-item {
+.mecha-tools .targets .item .one-item, .accessory-tools .filter-2 .item .one-item {
     overflow: hidden;
     position: relative;
 }
-.mecha-tools .filter-1 .item .one-item .img-re, .accessory-tools .filter-2 .item .one-item .img-re {
+.mecha-tools .targets .item .one-item .img-re, .accessory-tools .filter-2 .item .one-item .img-re {
     border: 1px solid #dcdcdc;
     border-radius: 10px 10px 10px 10px;
     transition: all .5s ease-in-out;
     overflow: hidden;
     position: relative;
 }
-.mecha-tools .filter-1 .item .one-item .img-re:hover, .accessory-tools .filter-2 .item .one-item .img-re:hover {
+.mecha-tools .targets .item .one-item .img-re:hover, .accessory-tools .filter-2 .item .one-item .img-re:hover {
     box-shadow: -2px -3px 10px #000, 2px 2px 10px #000;
     transform: scale(1.01);
 }
-.mecha-tools .filter-1 .item .one-item .img-re .new {
+.mecha-tools .targets .item .one-item .img-re .new {
     position: absolute;
     top: 10px;
     right: 17px;
@@ -330,7 +331,7 @@ body {
     color: #ededed;
     border-radius: 3px;
 }
-.mecha-tools .filter-1 .item .one-item .img-re .new-top {
+.mecha-tools .targets .item .one-item .img-re .new-top {
     position: absolute;
     top: 40px;
     right: 17px;
@@ -340,7 +341,7 @@ body {
     color: #ededed;
     border-radius: 3px;
 }
-.mecha-tools .filter-1 .item .one-item .img-re .top-brand {
+.mecha-tools .targets .item .one-item .img-re .top-brand {
     position: absolute;
     top: 10px;
     right: 17px;
@@ -350,7 +351,7 @@ body {
     color: #ededed;
     border-radius: 3px;
 }
-.mecha-tools .filter-1 .item .one-item .itm-name, .accessory-tools .filter-2 .item .one-item .itm-name {
+.mecha-tools .targets .item .one-item .itm-name, .accessory-tools .filter-2 .item .one-item .itm-name {
     background: rgba(240, 242, 245, 1);
     color: rgba(139, 145, 152, 1);
     height: 25px;
@@ -358,27 +359,27 @@ body {
     font-size: 11px;
     border: 1px solid #dcdcdc;
 }
-.mecha-tools .filter-1 .item .one-item .itm-name p, .accessory-tools .filter-2 .item .one-item .itm-name p {
+.mecha-tools .targets .item .one-item .itm-name p, .accessory-tools .filter-2 .item .one-item .itm-name p {
     float: left;
     color: rgba(139, 145, 152, 1);
 }
-.mecha-tools .filter-1 .item .one-item .itm-name p .fa-dollar-sign {
+.mecha-tools .targets .item .one-item .itm-name p .fa-dollar-sign {
     color: rgba(221,0,23,1);
 }
-.mecha-tools .filter-1 .item .one-item .itm-name p:hover {
+.mecha-tools .targets .item .one-item .itm-name p:hover {
     color: rgba(221,0,23,1);
 }
-.mecha-tools .filter-1 .item .one-item .itm-name span {
+.mecha-tools .targets .item .one-item .itm-name span {
     float: right;
     color: rgba(139, 145, 152, 1);
 }
-.mecha-tools .filter-1 .item .one-item .itm-name span .fa-question-circle {
+.mecha-tools .targets .item .one-item .itm-name span .fa-question-circle {
     color: #fed430;
 }
-.mecha-tools .filter-1 .item .one-item .itm-name span:hover {
+.mecha-tools .targets .item .one-item .itm-name span:hover {
     color: rgba(221,0,23,1);
 }
-.mecha-tools .filter-1 .item .one-item .detal-all {
+.mecha-tools .targets .item .one-item .detal-all {
     background-color: #515151;
     min-height: 50px;
     padding: 7px;
@@ -386,19 +387,16 @@ body {
     position: relative;
     border: 1px solid #dcdcdc;
 }
-.mecha-tools .filter-1 .item .one-item .detal-all h6 {
+.mecha-tools .targets .item .one-item .detal-all h6 {
     font-weight: bold;
     font-size: 13px;
 }
-.mecha-tools .filter-1 .item .one-item .detal-all p {
-
-}
-.mecha-tools .filter-1 .item .one-item .detal-all input {
+.mecha-tools .targets .item .one-item .detal-all input {
     width: 34px;
     height: 34px;
     text-align: center;
 }
-.mecha-tools .filter-1 .item .one-item .detal-all .fa-angle-up {
+.mecha-tools .targets .item .one-item .detal-all .fa-angle-up {
     border: 1px solid #000;
     padding: 1px;
     height: 17px;
@@ -409,7 +407,7 @@ body {
     left: 40px;
     cursor: pointer;
 }
-.mecha-tools .filter-1 .item .one-item .detal-all .fa-angle-down {
+.mecha-tools .targets .item .one-item .detal-all .fa-angle-down {
     border: 1px solid #000;
     padding: 1px;
     height: 17px;
@@ -420,7 +418,7 @@ body {
     left: 40px;
     cursor: pointer;
 }
-.mecha-tools .filter-1 .item .one-item .detal-all button {
+.mecha-tools .targets .item .one-item .detal-all button {
     float: right;
     padding: 7px;
     width: 105px;
@@ -429,17 +427,17 @@ body {
     background: rgba(69, 82, 94, 1);
     color: rgba(255, 255, 255, 1);
 }
-.mecha-tools .filter-1 .item .one-item .detal-all button:hover {
+.mecha-tools .targets .item .one-item .detal-all button:hover {
     background-color: rgba(221,0,23,1);
 }
-.mecha-tools .filter-1 .item .one-item .detal-all .fa-exchange-alt:hover {
+.mecha-tools .targets .item .one-item .detal-all .fa-exchange-alt:hover {
     color: rgba(221,0,23,1);
     border: 1px solid rgba(221,0,23,1);
 }
-.mecha-tools .filter-1 .item .one-item .detal-all .fa-heart:hover {
+.mecha-tools .targets .item .one-item .detal-all .fa-heart:hover {
     color: rgba(221,0,23,1);
 }
-.mecha-tools .filter-1 .item .one-item .detal-all .fa-exchange-alt {
+.mecha-tools .targets .item .one-item .detal-all .fa-exchange-alt {
     float: right;
     font-size: 12px;
     padding: 4px;
@@ -450,7 +448,7 @@ body {
     text-align: center;
     color: #000;
 }
-.mecha-tools .filter-1 .item .one-item .detal-all .fa-heart {
+.mecha-tools .targets .item .one-item .detal-all .fa-heart {
     float: right;
     font-size: 23px;
     padding: 1px 10px 4px 25px;
@@ -476,7 +474,7 @@ body {
 /* ============================================ */
 /* Start accesory Section */
 .accessory-tools {
-
+    min-height: 200px;
 }
 .accessory-tools .filter-control2 button {
     width: 125px;
